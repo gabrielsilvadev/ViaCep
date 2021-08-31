@@ -1,5 +1,4 @@
 const supertest = require('supertest');
-const mocha = require('./mocha.json')
 const assert = require('assert')
 const app = require('../../src/index')
 

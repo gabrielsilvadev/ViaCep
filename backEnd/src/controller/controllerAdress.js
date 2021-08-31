@@ -6,7 +6,6 @@ module.exports = {
      const [idAdress] =  await conection("adress").insert({
         cep, district, municipality, public_place
       });
-      console.log(response.body)
       return response.json({id: idAdress,cep, district, municipality, public_place});
     } catch (err) {
       return response.json({ error: err.message })
