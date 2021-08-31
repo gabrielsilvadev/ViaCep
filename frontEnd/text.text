@@ -1,0 +1,24 @@
+ <ul>
+                {adress?.map(adress => (
+                    <li key={adress.id}>
+                        <strong>Cep:</strong>
+                        <p>{adress.cep}</p>
+
+                        <strong>Bairro:</strong>
+                        <p>{adress.district}</p>
+
+                        <strong>Municipio:</strong>
+                        <p>{adress.municipality}</p>
+
+                        <strong>Rua:</strong>
+                        <p>{adress.public_place}</p>
+                        
+                        <strong>Estado:</strong>
+                        <p>{adress.states}</p>
+                        <button onClick={() => deleteAdress(adress.id)} type="button">
+                            <FiTrash2 size={18} color="#a8a8b3" />
+                        </button>
+                    </li>
+                )
+                )}
+            </ul>

@@ -1,0 +1,87 @@
+.adress-conteiner{
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+}
+.adress-conteiner header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.adress-conteiner header.form{
+    display: flex;
+    margin-right: 20%;
+}
+
+.adress-conteiner header img{
+    height: 200px;
+}
+.adress-conteiner header.form  button{
+    border-radius: 4px;
+    margin-left: 20px;
+    border: 1px solid #dcdce6;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+.adress-conteiner header button:hover{
+    border-color: #999999;
+}
+.adress-conteiner h1{
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+.adress-conteiner ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 24px;
+    list-style: none;
+}
+.adress-conteiner ul li{
+    background: #f5f5f5;
+    padding: 24px;
+    border-radius: 8px;
+    border:1px;
+    position: relative;
+}
+
+
+
+.adress-conteiner ul li button {
+   position: absolute;
+   right: 24px;
+   top:24px;
+   border:0;
+}
+.adress-conteiner ul li button:hover {
+ opacity: 0.1;
+}
+
+.adress-conteiner ul li strong{
+    display: block;
+    margin-bottom: 16px;
+    color:#41414d;
+}
+.adress-conteiner ul li p+strong{
+    margin-top: 32px;
+}
+
+.adress-conteiner ul li p{
+    color:#737380;
+    line-height: 21px;
+    font-size:16px;
+}
+
+.adress-conteiner footer{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.adress-conteiner footer p{
+    color:#737380;
+    line-height: 21px;
+    align-self: center;
+    font-size:20px;
+}

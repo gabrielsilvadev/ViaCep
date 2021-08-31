@@ -1,0 +1,31 @@
+{
+  "name": "apiCep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "celebrate": "^13.0.3",
+    "core-util-is": "^1.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "jest": "^26.4.2",
+    "knex": "^0.20.15",
+    "node-pre-gyp": "^0.15.0",
+    "react": "^16.13.1",
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.1.6",
+    "yarn": "^1.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
